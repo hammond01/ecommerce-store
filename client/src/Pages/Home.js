@@ -1,9 +1,10 @@
 import React from 'react'
+import ContentTop from '../Components/Content/ContentTop'
 
 const Home = () => {
     return (
         <div>
-            hello
+            <ContentTop />
         </div>
     )
 }
