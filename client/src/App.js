@@ -7,6 +7,7 @@ import HomeCategory from './Pages/Category/HomeCategory';
 import Cart from './Pages/ProductsAndCart/Cart';
 import Login from './Pages/Auth/Login';
 import Register from './Pages/Auth/Register';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
