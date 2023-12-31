@@ -2,9 +2,9 @@ import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import Home from './Pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Product from './Pages/ProductsAndCart/Product';
+import Product from './Pages/Products/Product';
 import HomeCategory from './Pages/Category/HomeCategory';
-import Cart from './Pages/ProductsAndCart/Cart';
+import Cart from './Pages/Cart/Cart';
 import Login from './Pages/Auth/Login';
 import Register from './Pages/Auth/Register';
 import Footer from './Components/Footer/Footer';
@@ -22,7 +22,7 @@ function App() {
           <Route path='/women' element={<HomeCategory banner={banner_women} category="women" />} />
           <Route path='/kids' element={<HomeCategory banner={banner_kids} category="kid" />} />
           <Route path='/product' element={<Product />} >
-            <Route path=':/productId' element={<Product />} />
+            <Route path=':productID' element={<Product />} />
           </Route>
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<Login />} />
