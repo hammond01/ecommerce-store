@@ -9,7 +9,6 @@ const Product = () => {
     const { all_product } = useContext(HomeContext);
     const { productID } = useParams();
     const product = all_product.find((e) => e.id === Number(productID));
-    console.log(product);
     return (
         <div>
             <BreadCrums product={product} />
