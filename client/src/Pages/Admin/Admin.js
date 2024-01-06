@@ -1,10 +1,12 @@
 import React from 'react'
+import NavBarAdmin from '../../Components/Admin/NavBarAdmin/NavBarAdmin'
 
 const Admin = () => {
     return (
-        <div>
-            admin page
-        </div>
+        <>
+            <NavBarAdmin />
+            admin
+        </>
     )
 }
 

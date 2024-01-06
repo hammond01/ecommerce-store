@@ -1,0 +1,17 @@
+.navbar-admin {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  box-shadow: 0 1px 3px -2px #000;
+  margin-bottom: 1px;
+  background: white;
+}
+.nav-admin-logo {
+  width: 60px;
+}
+.nav-admin-profile {
+  width: 75px;
+}
+p {
+  font-size: 40px;
+}
