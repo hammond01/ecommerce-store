@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
-import logo from '../Data/logo.png';
-import cartIcon from '../Data/cart_icon.png';
+import logo from '../../Asset/Client/logo.png';
+import cartIcon from '../../Asset/Client/cart_icon.png';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { HomeContext } from '../../Context/HomeContext';

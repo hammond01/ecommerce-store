@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { HomeContext } from '../../Context/HomeContext'
 import "./HomeCategory.css";
-import dropdownIcon from "../../Components/Data/dropdown_icon.png";
+import dropdownIcon from "../../Asset/Client/dropdown_icon.png";
 import Item from '../../Components/Item/Item';
 import NavBar from '../../Components/NavBar/NavBar';
 import Footer from '../../Components/Footer/Footer';

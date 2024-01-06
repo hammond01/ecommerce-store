@@ -1,8 +1,8 @@
 import React from 'react'
 import "./ContentTop.css";
-import hand_icon from '../Data/hand_icon.png';
-import arrow_icon from '../Data/arrow.png';
-import hero_image from '../Data/hero_image.png';
+import hand_icon from '../../Asset/Client/hand_icon.png';
+import arrow_icon from '../../Asset/Client/arrow.png';
+import hero_image from '../../Asset/Client/hero_image.png';
 const ContentTop = () => {
     return (
         <div className='content-top'>

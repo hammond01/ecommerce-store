@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './ProductDisplay.css';
-import star_icon from "../Data/star_icon.png"
-import star_dull_icon from "../Data/star_dull_icon.png";
+import star_icon from "../../Asset/Client/star_icon.png"
+import star_dull_icon from "../../Asset/Client/star_dull_icon.png";
 import { HomeContext } from "../../Context/HomeContext"
 const ProductDisplay = (props) => {
     const { product } = props;

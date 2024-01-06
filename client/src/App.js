@@ -6,9 +6,9 @@ import HomeCategory from './Pages/Category/HomeCategory';
 import Cart from './Pages/Cart/Cart';
 import Login from './Pages/Auth/Login';
 import Register from './Pages/Auth/Register';
-import banner_mens from "./Components/Data/banner_mens.png";
-import banner_women from "./Components/Data/banner_women.png";
-import banner_kids from "./Components/Data/banner_kids.png";
+import banner_mens from "./Asset/Client/banner_mens.png";
+import banner_women from "./Asset/Client/banner_women.png";
+import banner_kids from "./Asset/Client/banner_kids.png";
 import Admin from './Pages/Admin/Admin';
 function App() {
   return (
