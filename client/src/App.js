@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './Components/NavBar/NavBar';
 import Home from './Pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Product from './Pages/Products/Product';
@@ -7,15 +6,14 @@ import HomeCategory from './Pages/Category/HomeCategory';
 import Cart from './Pages/Cart/Cart';
 import Login from './Pages/Auth/Login';
 import Register from './Pages/Auth/Register';
-import Footer from './Components/Footer/Footer';
 import banner_mens from "./Components/Data/banner_mens.png";
 import banner_women from "./Components/Data/banner_women.png";
 import banner_kids from "./Components/Data/banner_kids.png";
+import Admin from './Pages/Admin/Admin';
 function App() {
   return (
     <div>
-      <BrowserRouter >
-        <NavBar />
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/mens' element={<HomeCategory banner={banner_mens} category="men" />} />
@@ -27,9 +25,13 @@ function App() {
           <Route path='/cart' element={<Cart />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+
+          <Route path='/admin' element={<Admin />} />
+          <Route path='/admin/product' element={<Admin />} />
         </Routes>
-        <Footer />
+
       </BrowserRouter>
+
     </div>
   );
 }
