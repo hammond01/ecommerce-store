@@ -1,11 +1,12 @@
 import React from 'react'
-import NavBarAdmin from '../../Components/Admin/NavBarAdmin/NavBarAdmin'
+import NavBarAdmin from '../../Components/Admin/NavBarAdmin/NavBarAdmin';
+import SideBarAdmin from '../../Components/Admin/SideBarAdmin/SideBarAdmin';
 
 const Admin = () => {
     return (
         <>
             <NavBarAdmin />
-            admin
+            <SideBarAdmin />
         </>
     )
 }
