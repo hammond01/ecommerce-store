@@ -18,7 +18,6 @@ import java.util.List;
 public class ProductController {
     private final IProductService iProductService;
 
-
     @GetMapping
     public ResponseEntity<List<Product>> getProducts() {
         return new ResponseEntity<>(iProductService.getProducts(), HttpStatus.OK);
