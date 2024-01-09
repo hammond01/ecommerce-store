@@ -37,7 +37,7 @@ function App() {
 					<Route path="/register" element={<Register />} />
 
 					<Route path="/admin" element={<Admin />} />
-					<Route path="/admin/product" element={<ProductAdmin />} />
+					<Route path="/admin/addProduct" element={<ProductAdmin />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

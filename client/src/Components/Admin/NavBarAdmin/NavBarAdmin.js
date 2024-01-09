@@ -4,7 +4,7 @@ import NavLogo from '../../../Asset/Admin/logo.png';
 import NavProfile from '../../../Asset/Admin/nav-profile.svg';
 const NavBarAdmin = () => {
 	return (
-		<div className="navbar-admin flex">
+		<div className="navbar-admin">
 			<img src={NavLogo} alt="" className="nav-admin-logo" />
 			<p>Ecommerce Admin Panel</p>
 			<img src={NavProfile} alt="" className="nav-admin-profile" />

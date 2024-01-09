@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBarAdmin from '../../Components/Admin/NavBarAdmin/NavBarAdmin';
 import SideBarAdmin from '../../Components/Admin/SideBarAdmin/SideBarAdmin';
-import ListProduct from '../../Components/Admin/ListProduct/ListProduct';
+import ListProducts from '../../Components/Admin/ProductsAdmin/ListProducts';
 
 const Admin = () => {
 	return (
@@ -11,7 +11,7 @@ const Admin = () => {
 				<div style={{ display: 'flex' }}>
 					<SideBarAdmin />
 					<main style={{ flexGrow: 1, padding: '3px' }}>
-						<ListProduct />
+						<ListProducts />
 					</main>
 				</div>
 			</div>
